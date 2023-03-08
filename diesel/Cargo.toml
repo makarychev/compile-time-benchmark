@@ -1,0 +1,11 @@
+[package]
+name = "test_diesel"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenvy = "0.15.6"
+diesel = { version = "2.0.3", features = ["postgres", "time", "numeric", "chrono"] }
+chrono = "0.4.23"

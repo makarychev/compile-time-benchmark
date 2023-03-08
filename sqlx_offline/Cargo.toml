@@ -1,0 +1,12 @@
+[package]
+name = "sqlx_offline"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = { version = "0.4.23" }
+dotenv = "0.15.0"
+sqlx = { version = "0.6.2", features = ["postgres", "offline", "runtime-tokio-rustls", "time", "bigdecimal"] }
+tokio = { version = "1.26.0", features = ["full"] }
