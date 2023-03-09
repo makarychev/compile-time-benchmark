@@ -1,0 +1,10 @@
+[package]
+name = "sea_orm"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+async-std = { version = "1.12", features = ["attributes"] }
+dotenv = "0.15.0"
+sea-orm = { version = "0.11", features = ["sqlx-sqlite", "runtime-async-std", "runtime-async-std-rustls", "sqlx-postgres"] }

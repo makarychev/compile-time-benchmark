@@ -11,4 +11,5 @@ Table shows avg time
 | sqlx offline | 34s | 9m |
 | sqlx | 35s | 10m 19s |
 | diesel | 50.6s | overtime |
+| seaorm | 31s | 27m 43s |
 
