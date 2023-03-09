@@ -6,9 +6,9 @@ Table shows avg time
 
 | count tables| 100 | 1000 |
 |---|---|---|
-| sqlx prepare| 48s | 4m |
-| sqlx prepared build | 34s | 9m |
-| sqlx build | 35s | 10m 19s |
-| diesel build | 50.6s | overtime |
-| postgres connector | 3.5s | 3.5s | 
+| rust-postgres | 3.5s | 3.5s |
+| sqlx offline (preparation)| 48s | 4m |
+| sqlx offline | 34s | 9m |
+| sqlx | 35s | 10m 19s |
+| diesel | 50.6s | overtime |
 
