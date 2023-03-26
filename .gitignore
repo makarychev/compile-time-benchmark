@@ -1,0 +1,5 @@
+diesel/target/
+postgres_connector/target/
+sea_orm/target/
+sqlx_offline/target/
+sqlx_online/target/
